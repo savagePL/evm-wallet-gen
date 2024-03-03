@@ -1,0 +1,26 @@
+{
+  "name": "evm-wallet-gen",
+  "version": "1.0.0",
+  "description": "A unique tool for generating Ethereum wallets and saving them to a file",
+  "main": "generateWallets.js",
+  "scripts": {
+    "start": "node generateWallets.js"
+  },
+  "keywords": [
+    "ethereum",
+    "wallet",
+    "generator",
+    "blockchain"
+  ],
+  "author": "savagePL",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.0.0",
+    "readline": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/savagePL/evm-wallet-gen"
+  },
+  "homepage": "https://github.com/savagePL/evm-wallet-gen#readme"
+}
